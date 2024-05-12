@@ -132,25 +132,26 @@ const Footer = () => {
                                 <input
                                     type="email"
                                     className="peer block min-h-[auto] w-full
-                                    rounded border-0 bg-transparent
+                                    rounded border-4 bg-transparent
+                                    border-blue-600
                                     px-3 py-[0.32rem] leading-[1.6]
                                     outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100
-                                     peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100
+                                     peer-focus:text-primary
                                      motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300
                                      dark:autofill:shadow-autofill dark:peer-focus:text-primary
-                                      [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                                      "
                                     id="exampleFormControlInputEmail"
                                     placeholder="Email address"/>
-                                <label
-                                    for="exampleFormControlInputEmail"
-                                    className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%]
-                                    origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all
-                                    duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8]
-                                    peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem]
-                                     peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none
-                                      dark:text-neutral-400 dark:peer-focus:text-primary"
-                                >Email address
-                                </label>
+                                {/*<label*/}
+                                {/*    for="exampleFormControlInputEmail"*/}
+                                {/*    className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%]*/}
+                                {/*    origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all*/}
+                                {/*    duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8]*/}
+                                {/*    peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem]*/}
+                                {/*     peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none*/}
+                                {/*      dark:text-neutral-400 dark:peer-focus:text-primary"*/}
+                                {/*>Email address*/}
+                                {/*</label>*/}
                             </div>
 
                             {/* Newsletter sign-up submit button */}
@@ -185,84 +186,84 @@ const Footer = () => {
 
                         <ul className="mb-0 list-none">
                             <li>
-                                <a href="#!">Link 1</a>
+                                <a href="#!">Login</a>
                             </li>
                             <li>
-                                <a href="#!">Link 2</a>
+                                <a href="#!">Plans</a>
                             </li>
                             <li>
-                                <a href="#!">Link 3</a>
+                                <a href="#!">Blogs</a>
                             </li>
                             <li>
-                                <a href="#!">Link 4</a>
+                                <a href="#!">About</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div className="mb-6">
-                        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
+                    {/*<div className="mb-6">*/}
+                    {/*    <h5 className="mb-2.5 font-bold uppercase">Links</h5>*/}
 
-                        <ul className="mb-0 list-none">
-                            <li>
-                                <a href="#!">Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 2</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
+                    {/*    <ul className="mb-0 list-none">*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 1</a>*/}
+                    {/*        </li>*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 2</a>*/}
+                    {/*        </li>*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 3</a>*/}
+                    {/*        </li>*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 4</a>*/}
+                    {/*        </li>*/}
+                    {/*    </ul>*/}
+                    {/*</div>*/}
 
-                    <div className="mb-6">
-                        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
+                    {/*<div className="mb-6">*/}
+                    {/*    <h5 className="mb-2.5 font-bold uppercase">Links</h5>*/}
 
-                        <ul className="mb-0 list-none">
-                            <li>
-                                <a href="#!">Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 2</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
+                    {/*    <ul className="mb-0 list-none">*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 1</a>*/}
+                    {/*        </li>*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 2</a>*/}
+                    {/*        </li>*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 3</a>*/}
+                    {/*        </li>*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 4</a>*/}
+                    {/*        </li>*/}
+                    {/*    </ul>*/}
+                    {/*</div>*/}
 
-                    <div className="mb-6">
-                        <h5 className="mb-2.5 font-bold uppercase">Links</h5>
+                    {/*<div className="mb-6">*/}
+                    {/*    <h5 className="mb-2.5 font-bold uppercase">Links</h5>*/}
 
-                        <ul className="mb-0 list-none">
-                            <li>
-                                <a href="#!">Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 2</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
+                    {/*    <ul className="mb-0 list-none">*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 1</a>*/}
+                    {/*        </li>*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 2</a>*/}
+                    {/*        </li>*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 3</a>*/}
+                    {/*        </li>*/}
+                    {/*        <li>*/}
+                    {/*            <a href="#!">Link 4</a>*/}
+                    {/*        </li>*/}
+                    {/*    </ul>*/}
+                    {/*</div>*/}
                 </div>
             </div>
 
             {/* Copyright section */}
             <div classNameName="w-full bg-black/5 p-4 text-center">
-                © 2023 Copyright:
+                © 2024 Copyright:
                 <a classNameName="font-semibold" href="https://tw-elements.com/"
-                >TW Elements</a
+                >Github</a
                 >
             </div>
         </footer>

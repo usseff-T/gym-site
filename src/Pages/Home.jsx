@@ -16,17 +16,16 @@ const Home = () => {
             {/*  Slider */}
             <Sliderr/>
 
-            {/* Coach Section */}
             <div className={""}>
+            {/* Coach Section */}
                 <Coach/>
-            </div>
 
             {/*    Price Section */}
             <Price/>
 
             {/*    Blog Section */}
             <BlogOverView/>
-
+            </div>
         </>);
 }
 
