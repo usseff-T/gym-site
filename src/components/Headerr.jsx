@@ -89,7 +89,7 @@ const Headerr = () => {
 
                             {/* Item in Menu */}
                             <div
-                                className={stateMenu ? "absolute bg-white m-20 border" +
+                                className={stateMenu ? "absolute z-50 bg-white m-20 border" +
                                     "rounded-lg py-4 px-6 w-1/2 dark:bg-gray-800 dark:text-white" : "hidden"}>
                                 <ul className={"flex flex-col gap-7 text-center"}>
                                     <NavMenu routes={routes}/>

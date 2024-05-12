@@ -1,3 +1,5 @@
+import {useState} from "react";
+
 const pricingList = {
 	monthlyPricings: [
 		{
@@ -125,11 +127,9 @@ const PricingItem = ({ pricing }) => {
 	);
 };
 
-PricingItem.propTypes = {
-	pricing: PropTypes.object.isRequired,
-};
 
-const Pricing4_P9THzxMH = () => {
+
+const Price = () => {
 	const [activeTimeline, setActiveTimeline] = useState("monthly");
 
 	let content = null;
@@ -184,3 +184,4 @@ const Pricing4_P9THzxMH = () => {
 		</section>
 	);
 };
+export default Price;

@@ -25,6 +25,14 @@ const blogs = [
 	},
 ];
 
+function getDate() {
+	const date=new Date();
+	const day = date.getDate();
+	const month = date.getMonth() + 1;
+	const year = date.getFullYear();
+
+	return { day, month, year };
+}
 const BlogItem = ({ blog }) => {
 	const { title, description, author, date, image } = blog;
 
@@ -33,11 +41,11 @@ const BlogItem = ({ blog }) => {
 			<div className="relative">
 				<img src={image} alt={title} className="h-auto w-full" />
 				<div className="absolute top-0 left-0 px-6 py-3 font-bold bg-white dark:bg-[#1E2735] text-xl leading-6 rounded-br-lg">
-					{moment(date).format("D")}
+					{getDate().day}
 					<br />
-					{moment(date).format("MMM")}
+					{getDate().month}
 					<br />
-					{moment(date).format("Y")}
+					{getDate().year}
 				</div>
 			</div>
 			<div className="p-3 md:p-6">
@@ -61,10 +69,6 @@ const BlogItem = ({ blog }) => {
 			</div>
 		</article>
 	);
-};
-
-BlogItem.propTypes = {
-	blog: PropTypes.object.isRequired,
 };
 
 export const BlogOverView = () => {
